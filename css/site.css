@@ -1,0 +1,34 @@
+#sceneView
+{
+    
+    width: 256px;
+    height: 256px;
+    vertical-align: middle;
+    
+}
+
+#mapView
+{
+    width: 128px;
+    height: 128px;
+}
+
+.bordered
+{
+    border: 2px solid black;
+}
+
+.naviHorizontal
+{
+    height: 256px;
+}
+
+.naviVertical
+{
+    width: 256px;
+}
+
+.btn-primary:disabled
+{
+    background-color: grey;
+}
