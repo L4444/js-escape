@@ -85,7 +85,7 @@ function moveTo(x, y)
     let scene = getGridCell(player.x, player.y);
     console.log("Scene information...");
     console.log(scene);
-    sceneView.src = "../scenes/" + scene.image;
+    sceneView.src = "scenes/" + scene.image;
     textInfo.innerHTML = scene.text;
 
     // If the gridcell to the left is "null", disable the button that allows me from moving left
