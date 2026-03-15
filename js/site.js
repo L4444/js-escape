@@ -37,7 +37,7 @@ muteButton.click();
 
 
 let gridMap = new Map();
-gridMap.set("0,0", {  name: "home", image: "800x800-barn.png", text: "Test"});
+gridMap.set("0,0", {  name: "home", image: "home.jpg", text: "Test"});
 gridMap.set("1,0", { name: "cell", image: "cell.jpg", text: "this is a cell, in jail"});
 gridMap.set("2,0", { name: "mine", image: "mine.jpg", text: "Miner"});
 gridMap.set("3,0", { name: "saloon", image: "saloon.jpg", text: "Give me a drink, <a href='#'> bartender </a>"});
@@ -46,7 +46,7 @@ gridMap.set("4,0",{ name: "fort", image: "fort.jpg", text: "Welcome to the fort"
 let player =  {x: 0, y: 0};
 
 
-moveTo(0,0);
+moveTo(1,0);
 
 rightButton.addEventListener('click', e => {
     moveTo(player.x+1, player.y);

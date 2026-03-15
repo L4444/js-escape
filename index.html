@@ -12,53 +12,41 @@
         
         
     </head>
-    <body data-bs-theme="dark">
-        <div class="container text-center mt-5 ml-1 mr-1 " >
+    <body data-bs-theme="dark" >
+        <div class="container text-center mt-5 ml-1 mr-1 " style="width: 384px;"  >
 
           
             <button id="muteButton" class="btn btn-warning position-absolute top-0 start-0">
                 <i id="muteSymbol" ></i>
             </button>
 
+            <div class="control-grid">
+    
+                <div></div>
+                <button id="forwardButton" class="btn btn-primary naviVertical">
+                    <i class="bi bi-arrow-up fs-6"></i>
+                </button>
+                <div></div>
+
+                <button  id="leftButton" class="btn btn-primary naviHorizontal">
+                    <i class="bi bi-arrow-left fs-6"></i>
+                </button>
+                <img id="sceneView" src="scenes/800x800-barn.png" class="center-img">
+                <button id="rightButton" class="btn btn-primary naviHorizontal">
+                    <i class="bi bi-arrow-right fs-6"></i>
+                </button>
+
+                <div></div>
+                <button id="backwardButton"  class="btn btn-primary naviVertical">
+                    <i class="bi bi-arrow-down fs-6"></i>
+                </button>
+                <div></div>
+
+            </div>
+
 
                 
-            <div class="container text-center">
-                 <div class="row">
-                     <div class="col">
-                        <button id="forwardButton" class="btn btn-primary" style="width: 256px;" >
-                            <i class="bi bi-arrow-up fs-3"></i>
-                        </button>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-
-                    </div>
-                    <div class="col-auto p-0">
-                        <button id="leftButton" class="btn btn-primary" style="height: 256px;"  >
-                            <i class="bi bi-arrow-left fs-3"></i>
-                        </button>
-                    </div>
-                    <div class="col-auto p-0">
-                        <img src="" style="margin: 0px;" id="sceneView" />
-                    </div>
-                    <div class="col-auto p-0">
-                        <button id="rightButton" class="btn btn-primary" style="height: 256px;" >
-                            <i class="bi bi-arrow-right fs-3"></i>
-                        </button>
-                    </div>
-                    <div class="col">
-                            
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <button id="backwardButton" class="btn btn-primary" style="width: 256px;" >
-                            <i class="bi bi-arrow-down fs-3"></i>
-                        </button>
-                    </div>
-                </div>
-            </div>
+            
 
             
 
